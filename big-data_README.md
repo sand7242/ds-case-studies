@@ -21,7 +21,7 @@ We explored data on:
 - Trip distance
 - Payment Type
 
-![](feb_2016_pickup_map.png)
+![](images/feb_2016_pickup_map.png)
 
 ## Samples:
 
@@ -33,23 +33,23 @@ We first explored the type of payment people used as a function of their pick up
 
 ### Figure 1
 
-![](paytypebyborough.png)
+![](images/paytypebyborough.png)
 
 Then, we started exploring tipping behavior using a subsample of the data (~9k rows). We found that there are only data on tips for credit cards (see Figure 2). In fact, this was an artifact of the data collection methodology; tipping data were only collected for credit card transactions.
 
 ### Figure 2
 
-![](boxplot_payment.png)
+![](images/boxplot_payment.png)
 
 Next, we observed tipping behavior as a function of pick up location (See Figures 3 and 4). It appeared that people coming from Queens tip better than people who are picked up outside of Queens.
 
 ### Figure 3
 
-![](violin_tip.png)
+![](images/violin_tip.png)
 
 ### Figure 4
 
-![](20_largefont.png)
+![](images/20_largefont.png)
 
 Table 1. Total Tips in Februrary 2016
 
@@ -62,7 +62,7 @@ But, people in Queens may just be tipping more because they are traveling a grea
 
 ### Figure 5
 
-![](violin_dist.png)
+![](images/violin_dist.png)
 
 We ran a multiple linear regression so that we could run inferential statistics to test our hypothesis. Our first model regressed tipping on boroughs, using Queens as a refernce group. Here we see people in Queens tip significantly more than people in the other boroughs (see Model 1, Table 1).
 
